@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<ArrayOfUniversity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <University>
+    <Title>Marvel</Title>
+    <Departaments>
+      <Departament>
+        <Title>Spider Team</Title>
+        <Workers>
+          <Human>
+            <Name>Peter Parker</Name>
+          </Human>
+          <Human xsi:type="Professor">
+            <Name>Otto Octavius</Name>
+            <IsVillain>true</IsVillain>
+          </Human>
+        </Workers>
+      </Departament>
+      <Departament>
+        <Title>Hulk Team</Title>
+        <Workers>
+          <Human>
+            <Name>Betty Ross</Name>
+          </Human>
+          <Human xsi:type="Professor">
+            <Name>Bruce Banner</Name>
+            <IsVillain>false</IsVillain>
+          </Human>
+        </Workers>
+      </Departament>
+    </Departaments>
+  </University>
+  <University>
+    <Title>Marvel 2</Title>
+    <Departaments>
+      <Departament>
+        <Title>Spider Team 2</Title>
+        <Workers>
+          <Human>
+            <Name>Peter Parker 2</Name>
+          </Human>
+          <Human xsi:type="Professor">
+            <Name>Otto Octavius 2</Name>
+            <IsVillain>true</IsVillain>
+          </Human>
+        </Workers>
+      </Departament>
+      <Departament>
+        <Title>Hulk Team 2</Title>
+        <Workers>
+          <Human>
+            <Name>Betty Ross 2</Name>
+          </Human>
+          <Human xsi:type="Professor">
+            <Name>Bruce Banner 2</Name>
+            <IsVillain>false</IsVillain>
+          </Human>
+        </Workers>
+      </Departament>
+    </Departaments>
+  </University>
+</ArrayOfUniversity>
